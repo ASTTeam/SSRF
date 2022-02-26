@@ -1,6 +1,6 @@
-# 深入理解SSRF漏洞
+# 《深入理解SSRF漏洞》
 
-本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。作者：[ASTTeam团队](https://github.com/ASTTeam/SSRF)
+本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。作者：[ASTTeam](https://github.com/ASTTeam/SSRF)
 
 本项目创建于2020年12月1日，最近的一次更新时间为2022年2月22日。本项目会持续更新，直到海枯石烂！
 
