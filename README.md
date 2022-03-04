@@ -1,8 +1,8 @@
 # 《深入理解SSRF漏洞》
 
-本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。作者：[ASTTeam](https://github.com/ASTTeam/SSRF)
+本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。作者：[ASTTeam](https://github.com/ASTTeam)
 
-本项目创建于2020年12月1日，最近的一次更新时间为2022年3月2日。本项目会持续更新，直到海枯石烂！
+本项目创建于2020年12月1日，最近的一次更新时间为2022年3月4日。本项目会持续更新，直到海枯石烂！
 
 - [01-SSRF漏洞资源]()
 - [02-SSRF漏洞基础]()
@@ -45,6 +45,8 @@
 五、SSRF漏洞思考
 
 ## 03-SSRF漏洞工具
+
+- 如何开发一个SSRF的渗透测试和代码审计工具？
 
 一、SSRF主动扫描
 - https://github.com/swisskyrepo/SSRFmap
