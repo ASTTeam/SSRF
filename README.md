@@ -2,7 +2,7 @@
 
 本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。作者：[ASTTeam](https://github.com/ASTTeam)
 
-本项目创建于2020年12月1日，最近的一次更新时间为2022年3月4日。本项目会持续更新，直到海枯石烂！
+本项目创建于2020年12月1日，最近的一次更新时间为2022年5月13日。本项目会持续更新，直到海枯石烂！
 
 - [01-SSRF漏洞资源]()
 - [02-SSRF漏洞基础]()
@@ -74,6 +74,7 @@
 
 一、SSRF漏洞靶场
 - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
+- https://github.com/sqlsec/ssrf-vuls
 
 二、SSRF审计原理
 
