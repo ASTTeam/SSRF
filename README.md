@@ -2,7 +2,7 @@
 
 本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年3月3日，最近的一次更新时间为2022年5月18日。本项目会持续更新，直到海枯石烂！
+本项目创建于2022年3月3日，最近的一次更新时间为2022年7月10日。本项目会持续更新，直到海枯石烂！
 
 - [01-SSRF漏洞资源]()
 - [02-SSRF漏洞基础]()
@@ -24,6 +24,7 @@
 - https://github.com/jdonsec/AllThingsSSRF
 - https://github.com/cujanovic/SSRF-Testing
 - https://kathan19.gitbook.io/howtohunt/ssrf/ssrf
+- https://tttang.com/archive/1648
 
 ## 02-SSRF漏洞基础
 
