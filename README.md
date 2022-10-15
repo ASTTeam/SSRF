@@ -1,8 +1,8 @@
 # 《深入理解WEB漏洞之SSRF漏洞》
 
-本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。作者：[0e0w](https://github.com/0e0w)
+本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。也包括SSRF漏洞的挖掘技巧及案例等，站在漏洞利用和漏洞赏金的角度可以更好的理解SSRF！深入理解SSRF，发起悄无声息的渗透！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年3月3日，最近的一次更新时间为2022年7月10日。本项目会持续更新，直到海枯石烂！
+本项目创建于2022年3月3日，最近的一次更新时间为2022年10月15日。本项目会持续更新，直到海枯石烂！
 
 - [01-SSRF漏洞资源]()
 - [02-SSRF漏洞基础]()
@@ -16,6 +16,8 @@
 ## 01-SSRF漏洞资源
 
 - https://github.com/topics/ssrf
+- https://github.com/topics/server-side-request-forgery
+- https://github.com/search?q=ssrf
 
 一、SSRF书籍资源
 
@@ -52,6 +54,7 @@
 
 一、SSRF主动扫描
 - https://github.com/swisskyrepo/SSRFmap
+- https://github.com/hupe1980/gopherfy
 
 二、SSRF被动扫描
 - https://github.com/ethicalhackingplayground/ssrf-king
@@ -63,6 +66,25 @@
 - https://github.com/tarunkant/Gopherus
 - https://github.com/ksharinarayanan/SSRFire
 - https://github.com/In3tinct/See-SURF
+- https://github.com/bcoles/ssrf_proxy
+- https://github.com/pikpikcu/XRCross
+- https://github.com/ryandamour/ssrfuzz
+- https://github.com/0xAwali/Blind-SSRF
+- https://github.com/arkadiyt/ssrf_filter
+- https://github.com/dreadlocked/SSRFmap
+- https://github.com/Th0h0/autossrf
+- https://github.com/h4fan/ssrfscan
+- https://github.com/junnlikestea/bulkssrf
+- https://github.com/grayddq/SSRF_payload
+- https://github.com/Kevin-sa/SSRF_ex
+- https://github.com/akincibor/SSRFexploit
+- https://github.com/medbsq/ssrf
+- https://github.com/ackerleytng/ssrf-clojure-talk-gowherene
+- https://github.com/redfr0g/ssrfuzzer
+- https://github.com/0xWise64/SSRF_Listener
+- https://github.com/alyrezo/ssrf-bypass
+- https://github.com/grampae/ssrfscan
+- https://github.com/paulveillard/cybersecurity-ssrf
 
 ## 04-SSRF渗透测试
 
@@ -77,6 +99,8 @@
 一、SSRF漏洞靶场
 - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
 - https://github.com/sqlsec/ssrf-vuls
+- https://github.com/Captain-K-101/Ssrf-labs
+- https://github.com/adeadfed/simple-ssrf-app
 
 二、SSRF审计原理
 
