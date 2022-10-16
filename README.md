@@ -2,7 +2,7 @@
 
 本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。也包括SSRF漏洞的挖掘技巧及案例等，站在漏洞利用和漏洞赏金的角度可以更好的理解SSRF！深入理解SSRF，发起悄无声息的渗透！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年3月3日，最近的一次更新时间为2022年10月15日。本项目会持续更新，直到海枯石烂！
+本项目创建于2022年3月3日，最近的一次更新时间为2022年10月16日。本项目会持续更新，直到海枯石烂！
 
 - [01-SSRF漏洞资源]()
 - [02-SSRF漏洞基础]()
@@ -127,6 +127,9 @@
 一、挖掘技巧
 
 二、公开报告
+
+- https://hackerone.com/hacktivity?querystring=SSRF
+
 - [SSRF报告](https://github.com/reddelexc/hackerone-reports/blob/master/tops_by_bug_type/TOPSSRF.md)
 - [ ] [My Expense Report resulted in a Server-Side Request Forgery (SSRF) on Lyft](https://hackerone.com/reports/885975) to Lyft - 587 upvotes, $0
 - [ ] [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876) to Shopify - 507 upvotes, $25000
