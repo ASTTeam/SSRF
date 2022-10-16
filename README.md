@@ -19,7 +19,9 @@
 - https://github.com/topics/server-side-request-forgery
 - https://github.com/search?q=ssrf
 
-一、SSRF书籍资源
+一、SSRF书籍文章
+
+- [ ] [SSRF安全指北](https://security.tencent.com/index.php/blog/msg/179)@腾讯蓝军 silence
 
 二、SSRF培训演讲
 
@@ -92,7 +94,11 @@
 
 二、SSRF漏洞实战
 
-三、SSRF高级利用
+三、SSRF利用协议
+
+- http、https、ftp、gopher、telnet、dict、file 、ldap、php、local_file、local-file
+
+四、SSRF高级利用
 
 ## 05-SSRF代码审计
 
@@ -105,6 +111,11 @@
 二、SSRF审计原理
 
 三、SSRF危险函数
+
+- PHP
+  - cURL、file_get_contents
+- Python
+  - urllib、urllib2、requests
 
 四、SSRF漏洞分析
 
