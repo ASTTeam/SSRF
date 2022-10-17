@@ -2,7 +2,7 @@
 
 本项目用来收集整理SSRF漏洞的相关内容，包括SSRF的利用方法工具或思路等。也包括SSRF漏洞的挖掘技巧及案例等，站在漏洞利用和漏洞赏金的角度可以更好的理解SSRF！深入理解SSRF，发起悄无声息的渗透！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年3月3日，最近的一次更新时间为2022年10月16日。本项目会持续更新，直到海枯石烂！
+本项目创建于2022年3月3日，最近的一次更新时间为2022年10月17日。本项目会持续更新，直到海枯石烂！
 
 - [01-SSRF漏洞资源]()
 - [02-SSRF漏洞基础]()
@@ -43,12 +43,24 @@
 
 三、SSRF漏洞分类
 
-- PHP SSRF
-- Java SSR
+- 按照是否回显分：
+  - 回显
+  - 不回显
 
-四、SSRF漏洞危害
+- 按照程序语言分：
+  - PHP SSRF
+  - Java SSRF
+  - ASPX SSRF
+  - Python SSRF
+  - Golang SSRF
 
-五、SSRF漏洞思考
+四、SSRF Parameter
+
+五、SSRF Payloads
+
+六、SSRF漏洞危害
+
+七、SSRF漏洞思考
 
 ## 03-SSRF漏洞工具
 
@@ -61,7 +73,10 @@
 二、SSRF被动扫描
 - https://github.com/ethicalhackingplayground/ssrf-king
 
-三、待整理
+三、SSRF Automation
+
+四、待整理工具
+
 - https://github.com/teknogeek/ssrf-sheriff
 - https://github.com/knassar702/scant3r
 - https://github.com/R0X4R/ssrf-tool
@@ -96,7 +111,9 @@
 
 三、SSRF利用协议
 
-- http、https、ftp、gopher、telnet、dict、file 、ldap、php、local_file、local-file
+- PHP
+  - http、https、ftp、gopher、telnet、dict、file 、ldap、php、local_file、local-file
+- Java
 
 四、SSRF高级利用
 
@@ -114,8 +131,12 @@
 
 - PHP
   - cURL、file_get_contents
+- Java
+- ASPX
+
 - Python
   - urllib、urllib2、requests
+- Golang
 
 四、SSRF漏洞分析
 
@@ -127,10 +148,8 @@
 一、挖掘技巧
 
 二、公开报告
-
 - https://hackerone.com/hacktivity?querystring=SSRF
-
-- [SSRF报告](https://github.com/reddelexc/hackerone-reports/blob/master/tops_by_bug_type/TOPSSRF.md)
+- [https://github.com/reddelexc/hackerone-reports](https://github.com/reddelexc/hackerone-reports/blob/master/tops_by_bug_type/TOPSSRF.md)
 - [ ] [My Expense Report resulted in a Server-Side Request Forgery (SSRF) on Lyft](https://hackerone.com/reports/885975) to Lyft - 587 upvotes, $0
 - [ ] [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876) to Shopify - 507 upvotes, $25000
 - [ ] [Server Side Request Forgery (SSRF) at app.hellosign.com leads to AWS private keys disclosure](https://hackerone.com/reports/923132) to Dropbox - 357 upvotes, $4913
