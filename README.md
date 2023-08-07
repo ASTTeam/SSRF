@@ -176,6 +176,7 @@
 
 - PHP
   - http、https、ftp、gopher、telnet、dict、file 、ldap、php、local_file、local-file
+  - https://xz.aliyun.com/t/12374
 - Java
 
 四、SSRF攻击内网
